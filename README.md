@@ -1,1 +1,1 @@
-# gravity-simulator
+# Gravity Simulator

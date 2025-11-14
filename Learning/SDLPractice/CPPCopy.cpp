@@ -82,26 +82,30 @@ class Window {
 
 class EventManager {
     private: 
-        bool mouseEnabled;
-
         SDL_Event _event; // _event will be our container struct that holds an event 
 
         const Uint8* _state = SDL_GetKeyboardState(NULL); // Multiple keys checking
         
-        int _mouseX = 0, _mouseY = 0;
-        Uint32 _mouseButtons = 0;
+
     
     public: 
-        EventManager(bool mouseEnabled) {
-            this->mouseEnabled = mouseEnabled;
-            if (!this->mouseEnabled) {
-                SDL_ShowCursor(SDL_DISABLE);
-            } else {
-                SDL_ShowCursor(SDL_ENABLE);
-            }
-        }
+        EventManager() = default; // No reason to do constructor
 
-        bool pollEvents() { // 
+int _mouseX, _mouseY;
+Uint32 _mouseButtons;
+bool pollEvents() {
+    while (SDL_PollEvent(&_event)) {
+        switch (_event.type) {
+            case SDL_MOUSEBUTTONDOWN:
+                if (_event.button.button == SDL_BUTTON_LEFT) {
+                    std::cout << "Left";
+                }
+        }
+    }
+    _mouseButtons = SDL_GetMouseState(&_mouseX, &_mouseY);
+}
+
+        bool pollEvent() { // 
             while (SDL_PollEvent(&_event)) { // Pass through the address to write to it what event happened
                 switch (_event.type) { 
                     
@@ -137,13 +141,13 @@ int main() {
     if (!sdl.initialized()) { return 1; }
 
     Window window("Window", 640, 480);
-
-    EventManager events(false);
+    
+    EventManager events;
     bool running = true;
     while (running) {
         running = events.pollEvents();
 
-        // std::cout << "Mouse: " << events.mouseX() << ", " << events.mouseY() << "\n";
+        std::cout << "Mouse: " << events.mouseX() << ", " << events.mouseY() << "\n";
 
         window.beginFrame();
 

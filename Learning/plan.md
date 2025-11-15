@@ -21,8 +21,10 @@
 
 ### To Learn / Next Steps
 
-- [ ] Multibutton Input (`SDL_GetKeyboardState`)
-- [ ] Mouse Input (`SDL_GetMouseState`, `SDL_SetRelativeMouseMode`)
+- [x] Multibutton Input (`SDL_GetKeyboardState`)
+- [x] Mouse Input (`SDL_GetMouseState`, `SDL_SetRelativeMouseMode`)
+    - [x] Won't use SetRelativeMouseMode as no use for it (at least now), will use `ShowCursor`.
+- [ ] More advanced drawing
 - [ ] Continuous Collision Detection (`SDL_HasIntersection`, reversing velocities)
 - [ ] Game Objects (Player circle, enemy squares, lightweight classes)
 - [ ] Game Loop & Timing (`SDL_GetTicks`, delta time)

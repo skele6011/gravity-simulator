@@ -7,9 +7,8 @@
 **Goal:** Build a small 2D game to practice SDL fundamentals and programming concepts.
 
 ### Completed / Learned
-
+The things I learned previous to making this repository
 - [x] Initialization (Basic)
-- [x] Initialization
 - [x] Initialization (OOP Integrated)
 - [x] Window Creation (Class + destructor)
 - [x] Event Manager Class (basic polling)

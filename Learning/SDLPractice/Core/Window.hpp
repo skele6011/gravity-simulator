@@ -12,7 +12,13 @@ public:
     ~Window();
 
     void beginFrame();
-    void drawRedRectangle(SDL_Rect rect);
+
+    void drawFilledRect(SDL_Rect rect, SDL_Color color);
+    void drawRect(SDL_Rect rect, SDL_Color color);
+    void drawLine(int x1, int y1, int x2, int y2, SDL_Color color);
+    void drawPoint(int x, int y, SDL_Color color);
+    
+
     void endFrame();
 
     SDL_Renderer* renderer() const { return renderer_; }

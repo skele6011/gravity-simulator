@@ -23,22 +23,12 @@ int main() {
 
         window.beginFrame();
 
-        window.drawRedRectangle({100, 100, 200, 150});
-        window.drawRedRectangle({250, 300, 50, 50});
+        
 
         window.endFrame();
 
         SDL_Delay(16); // Around 60 FPS
     }
-    
+
     return 0;
 }
-
-
-// ----
-// std::cout << "\n --- \n";
-
-// std::cout << "Works!";
-
-// std::cout << "\n --- \n\n";
-// ----

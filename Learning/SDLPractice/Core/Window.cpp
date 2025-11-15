@@ -24,10 +24,26 @@ void Window::beginFrame() {
     SDL_RenderClear(renderer_);
 }
 
-void Window::drawRedRectangle(SDL_Rect rect) {
-    SDL_SetRenderDrawColor(renderer_, 255, 0, 0, 255);
+void Window::drawFilledRect(SDL_Rect rect, SDL_Color color) {
+    SDL_SetRenderDrawColor(renderer_, color.r, color.g, color.b, color.a);
     SDL_RenderFillRect(renderer_, &rect);
 }
+
+void Window::drawRect(SDL_Rect rect, SDL_Color color) {
+    SDL_SetRenderDrawColor(renderer_, color.r, color.g, color.b, color.a);
+    SDL_RenderDrawRect(renderer_, &rect);
+}
+
+void Window::drawLine(int x1, int y1, int x2, int y2, SDL_Color color) {
+    SDL_SetRenderDrawColor(renderer_, color.r, color.g, color.b, color.a);
+    SDL_RenderDrawLine(renderer_, x1, y1, x2, y2);
+}
+
+void Window::drawPoint(int x, int y, SDL_Color color) {
+    SDL_SetRenderDrawColor(renderer_, color.r, color.g, color.b, color.a);
+    SDL_RenderDrawPoint(renderer_, x, y);
+}
+
 
 void Window::endFrame() {
     SDL_RenderPresent(renderer_);

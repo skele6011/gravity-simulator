@@ -24,14 +24,9 @@ void Window::beginFrame() {
     SDL_RenderClear(renderer_);
 }
 
-void Window::drawFilledRect(SDL_Rect rect, SDL_Color color) {
+void Window::drawPoint(int x, int y, SDL_Color color) {
     SDL_SetRenderDrawColor(renderer_, color.r, color.g, color.b, color.a);
-    SDL_RenderFillRect(renderer_, &rect);
-}
-
-void Window::drawRect(SDL_Rect rect, SDL_Color color) {
-    SDL_SetRenderDrawColor(renderer_, color.r, color.g, color.b, color.a);
-    SDL_RenderDrawRect(renderer_, &rect);
+    SDL_RenderDrawPoint(renderer_, x, y);
 }
 
 void Window::drawLine(int x1, int y1, int x2, int y2, SDL_Color color) {
@@ -39,9 +34,66 @@ void Window::drawLine(int x1, int y1, int x2, int y2, SDL_Color color) {
     SDL_RenderDrawLine(renderer_, x1, y1, x2, y2);
 }
 
-void Window::drawPoint(int x, int y, SDL_Color color) {
+void Window::drawRect(SDL_Rect rect, SDL_Color color) {
     SDL_SetRenderDrawColor(renderer_, color.r, color.g, color.b, color.a);
-    SDL_RenderDrawPoint(renderer_, x, y);
+    SDL_RenderDrawRect(renderer_, &rect);
+}
+
+void Window::drawFilledRect(SDL_Rect rect, SDL_Color color) {
+    SDL_SetRenderDrawColor(renderer_, color.r, color.g, color.b, color.a);
+    SDL_RenderFillRect(renderer_, &rect);
+}
+
+void Window::drawTriangle(int x1, int y1, int x2, int y2, int x3, int y3, SDL_Color color) {
+    drawLine(x1, y1, x2, y2, color); // Question: Do I need to make an instance?
+    drawLine(x2, y2, x3, y3, color);
+    drawLine(x3, y3, x1, y1, color);
+}
+
+void Window::drawFilledTriangle(int x1, int y1, int x2, int y2, int x3, int y3, SDL_Color color) {
+    // Sort vertices by y-coordinate (y1 <= y2 <= y3)
+    if (y1 > y2) { std::swap(x1,x2); std::swap(y1,y2); }
+    if (y2 > y3) { std::swap(x2,x3); std::swap(y2,y3); }
+    if (y1 > y2) { std::swap(x1,x2); std::swap(y1,y2); }
+
+    // Lambda function to draw every pixel from startX till endX at Y
+    auto drawLineH = [&](int sx, int ex, int y){
+        if (sx > ex) { std::swap(sx, ex); } // Make sure the start is on the left of the end
+        for (int x = sx; x <= ex; x++) {
+            drawPoint(x, y, color);
+        }
+    };
+
+    // Interpolation to figure out the x-axis of an edge at a certain y
+    auto interp = [](float a, float b, float t){ return a + (b - a) * t; };
+
+    if (y2 == y3) { // Flat-bottom triangle
+        for (int y = y1; y <= y3; y++){
+            if (y3 == y1) {
+                throw std::runtime_error("Triangle with no height");
+            }
+            float t1 = (float)(y - y1) / (y3 - y1);
+            float sx = interp(x1, x3, t1);
+            float ex = interp(x1, x2, t1);
+            drawLineH(int(sx), int(ex), y);
+        }
+    } else if (y1 == y2) { // Flat-top triangle
+        for (int y = y1; y <= y3; y++){
+            if (y3 == y1) {
+                throw std::runtime_error("Triangle with no height");
+            }
+            float t1 = (float)(y - y1) / (y3 - y1);
+            float sx = interp(x1, x3, t1);
+            float ex = interp(x2, x3, t1);
+            drawLineH(int(sx), int(ex), y);
+        }
+    } else { // General triangle: split into top-flat and bottom-flat
+        int x4 = x1 + (float)(y2 - y1)/(y3 - y1) * (x3 - x1); // New vertex at y2
+        int y4 = y2;
+
+        drawFilledTriangle(x1, y1, x2, y2, x4, y4, color); // Top flat
+        drawFilledTriangle(x2, y2, x4, y4, x3, y3, color); // Bottom flat
+    }
 }
 
 

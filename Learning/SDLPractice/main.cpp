@@ -19,11 +19,13 @@ int main() {
     while (running) {
         running = events.pollEvents();
 
-        // std::cout << "Mouse: " << events.mouseX() << ", " << events.mouseY() << "\n";
+        std::cout << "Mouse: " << events.mouseX() << ", " << events.mouseY() << "\n";
 
         window.beginFrame();
 
-        
+        SDL_Color green {0, 69, 11, 255};
+        window.drawTriangle(50, 50, 100, 200, 200, 100, green);
+        window.drawFilledTriangle(50, 50, 100, 200, 200, 100, green);
 
         window.endFrame();
 

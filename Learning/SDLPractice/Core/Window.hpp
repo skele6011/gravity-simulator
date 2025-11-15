@@ -1,6 +1,7 @@
 #pragma once
 #include <SDL2/SDL.h>
 #include <iostream>
+#include <algorithm>
 
 class Window {
 private:
@@ -13,11 +14,13 @@ public:
 
     void beginFrame();
 
-    void drawFilledRect(SDL_Rect rect, SDL_Color color);
-    void drawRect(SDL_Rect rect, SDL_Color color);
-    void drawLine(int x1, int y1, int x2, int y2, SDL_Color color);
     void drawPoint(int x, int y, SDL_Color color);
-    
+    void drawLine(int x1, int y1, int x2, int y2, SDL_Color color);
+    void drawRect(SDL_Rect rect, SDL_Color color);
+    void drawFilledRect(SDL_Rect rect, SDL_Color color);
+    void drawTriangle(int x1, int y1, int x2, int y2, int x3, int y3, SDL_Color color);
+    void drawFilledTriangle(int x1, int y1, int x2, int y2, int x3, int y3, SDL_Color color);
+
 
     void endFrame();
 

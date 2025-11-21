@@ -1,6 +1,7 @@
 #define SDL_MAIN_HANDLED
 #include <iostream>
 #include <SDL2/SDL.h>
+#include <SDL2_gfxPrimitives.h>
 
 #include "Core/Window.hpp"
 #include "Core/Initializer.hpp"
@@ -24,10 +25,13 @@ int main() {
         window.beginFrame();
 
         SDL_Color green {0, 69, 11, 255};
-        window.drawTriangle(50, 50, 100, 200, 200, 100, green);
-        window.drawFilledTriangle(50, 50, 100, 200, 200, 100, green);
+        // window.drawTriangle(50, 50, 100, 200, 200, 100, green);
+        // window.drawFilledTriangle(50, 50, 100, 200, 200, 100, green);
+        window.drawCircle(320, 240, 200, green);
 
-        window.endFrame();
+        filledCircleRGBA(window.renderer(), 200, 200, 50, 255, 0, 0, 255);
+
+        window.endFrame();  
 
         SDL_Delay(16); // Around 60 FPS
     }

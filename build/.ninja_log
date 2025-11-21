@@ -1,0 +1,17 @@
+# ninja log v7
+9	480	7849498228982911	CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.obj	d909b6155db7e7b0
+13	486	7849498229012910	CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.obj	db2ab910ae53bffc
+4	504	7849498228922902	CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.obj	1d5bc1151fa8ff3d
+17	512	7849498229052962	CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.obj	dfb2a07f0e9c330b
+512	1161	7849498233998732	GravitySimulator.exe	8c828c109206f638
+21	479	7849501690257765	CMakeFiles/Practice.dir/Learning/SDLPractice/Core/Initializer.cpp.obj	374d8694ce3ae881
+17	482	7849501690217503	CMakeFiles/Practice.dir/Learning/SDLPractice/Core/EvenManager.cpp.obj	739911efd002c276
+12	504	7849501690167580	CMakeFiles/Practice.dir/Learning/SDLPractice/main.cpp.obj	93bd01e506bbc7ae
+26	517	7849501690297560	CMakeFiles/Practice.dir/Learning/SDLPractice/Core/Window.cpp.obj	26c7802fcefd8d40
+517	1004	7849501695213673	Practice.exe	8b1cd88a4fd9a19a
+8	1115	7850961693586883	CMakeFiles/Practice.dir/Learning/SDLPractice/main.cpp.obj	93bd01e506bbc7ae
+1116	2923	7850961704655985	Practice.exe	8b1cd88a4fd9a19a
+8	1087	7850962111314053	CMakeFiles/Practice.dir/Learning/SDLPractice/main.cpp.obj	93bd01e506bbc7ae
+1088	2078	7850962122110556	Practice.exe	8b1cd88a4fd9a19a
+50	1169	7850965111296234	CMakeFiles/Practice.dir/Learning/SDLPractice/main.cpp.obj	93bd01e506bbc7ae
+1170	2136	7850965122437420	Practice.exe	8b1cd88a4fd9a19a

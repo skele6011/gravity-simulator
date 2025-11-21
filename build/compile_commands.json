@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "C:\\Users\\skele\\cpp-libs\\LLVM\\bin\\clang++.exe -isystem C:/Users/skele/cpp-libs/vcpkg/installed/x64-windows/include -isystem C:/Users/skele/cpp-libs/vcpkg/installed/x64-windows/include/SDL2 -O0 -g -Xclang -gcodeview -std=gnu++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\Practice.dir\\Learning\\SDLPractice\\main.cpp.obj -c C:\\Users\\skele\\Documents\\ASTUFFA\\vscode\\!Serious\\gravity-simulator\\Learning\\SDLPractice\\main.cpp",
+  "file": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp",
+  "output": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles/Practice.dir/Learning/SDLPractice/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "C:\\Users\\skele\\cpp-libs\\LLVM\\bin\\clang++.exe -isystem C:/Users/skele/cpp-libs/vcpkg/installed/x64-windows/include -isystem C:/Users/skele/cpp-libs/vcpkg/installed/x64-windows/include/SDL2 -O0 -g -Xclang -gcodeview -std=gnu++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\Practice.dir\\Learning\\SDLPractice\\Core\\EvenManager.cpp.obj -c C:\\Users\\skele\\Documents\\ASTUFFA\\vscode\\!Serious\\gravity-simulator\\Learning\\SDLPractice\\Core\\EvenManager.cpp",
+  "file": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp",
+  "output": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles/Practice.dir/Learning/SDLPractice/Core/EvenManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "C:\\Users\\skele\\cpp-libs\\LLVM\\bin\\clang++.exe -isystem C:/Users/skele/cpp-libs/vcpkg/installed/x64-windows/include -isystem C:/Users/skele/cpp-libs/vcpkg/installed/x64-windows/include/SDL2 -O0 -g -Xclang -gcodeview -std=gnu++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\Practice.dir\\Learning\\SDLPractice\\Core\\Initializer.cpp.obj -c C:\\Users\\skele\\Documents\\ASTUFFA\\vscode\\!Serious\\gravity-simulator\\Learning\\SDLPractice\\Core\\Initializer.cpp",
+  "file": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp",
+  "output": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles/Practice.dir/Learning/SDLPractice/Core/Initializer.cpp.obj"
+},
+{
+  "directory": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "C:\\Users\\skele\\cpp-libs\\LLVM\\bin\\clang++.exe -isystem C:/Users/skele/cpp-libs/vcpkg/installed/x64-windows/include -isystem C:/Users/skele/cpp-libs/vcpkg/installed/x64-windows/include/SDL2 -O0 -g -Xclang -gcodeview -std=gnu++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\Practice.dir\\Learning\\SDLPractice\\Core\\Window.cpp.obj -c C:\\Users\\skele\\Documents\\ASTUFFA\\vscode\\!Serious\\gravity-simulator\\Learning\\SDLPractice\\Core\\Window.cpp",
+  "file": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp",
+  "output": "C:/Users/skele/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles/Practice.dir/Learning/SDLPractice/Core/Window.cpp.obj"
+}
+]

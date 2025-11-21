@@ -45,9 +45,9 @@ void Window::drawFilledRect(SDL_Rect rect, SDL_Color color) {
 }
 
 void Window::drawTriangle(int x1, int y1, int x2, int y2, int x3, int y3, SDL_Color color) {
-    drawLine(x1, y1, x2, y2, color); // Question: Do I need to make an instance?
-    drawLine(x2, y2, x3, y3, color);
-    drawLine(x3, y3, x1, y1, color);
+    this->drawLine(x1, y1, x2, y2, color); 
+    this->drawLine(x2, y2, x3, y3, color);
+    this->drawLine(x3, y3, x1, y1, color);
 }
 
 void Window::drawFilledTriangle(int x1, int y1, int x2, int y2, int x3, int y3, SDL_Color color) {
@@ -96,6 +96,31 @@ void Window::drawFilledTriangle(int x1, int y1, int x2, int y2, int x3, int y3, 
     }
 }
 
+void Window::drawCircle(int cx, int cy, int radius, SDL_Color color) {
+    int x = 0;
+    int y = -radius;
+    int p = -radius;
+
+    while (x < -y) {
+        if (p > 0) {
+            y++;
+            p += 2*(x+y) + 1;
+        } else {
+            p += 2*x + 1;
+        }
+
+        this->drawPoint(cx + x, cy + y, color); // right edge of circle
+        this->drawPoint(cx - x, cy + y, color); // left edge
+        this->drawPoint(cx + x, cy - y, color); // right edge, mirrored vertically
+        this->drawPoint(cx - x, cy - y, color); // left edge, mirrored vertically
+        this->drawPoint(cx + y, cy + x, color); // top point
+        this->drawPoint(cx - y, cy + x, color); // mirrored top
+        this->drawPoint(cx + y, cy - x, color); // bottom
+        this->drawPoint(cx - y, cy - x, color); // mirrored bottom
+
+        x++;
+    }
+}
 
 void Window::endFrame() {
     SDL_RenderPresent(renderer_);

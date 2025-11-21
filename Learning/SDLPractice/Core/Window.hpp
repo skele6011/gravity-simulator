@@ -20,6 +20,7 @@ public:
     void drawFilledRect(SDL_Rect rect, SDL_Color color);
     void drawTriangle(int x1, int y1, int x2, int y2, int x3, int y3, SDL_Color color);
     void drawFilledTriangle(int x1, int y1, int x2, int y2, int x3, int y3, SDL_Color color);
+    void drawCircle(int cx, int cy, int radius, SDL_Color color);
 
 
     void endFrame();

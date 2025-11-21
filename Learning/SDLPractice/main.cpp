@@ -12,7 +12,7 @@ int main() {
 
     if (!sdl.initialized()) { return 1; }
 
-    Window window("Window", 640, 480);
+    Window window("Window", 1280, 960);
 
     EventManager events(true);
 

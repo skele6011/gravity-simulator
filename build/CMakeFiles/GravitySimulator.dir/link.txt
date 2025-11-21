@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o -o GravitySimulator  /usr/lib/x86_64-linux-gnu/libSDL2.so -lSDL2_gfx 

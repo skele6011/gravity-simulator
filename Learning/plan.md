@@ -26,7 +26,7 @@ The things I learned previous to making this repository
 - [x] More advanced drawing
 - [x] Image rendering
     - [ ] Extra: Learn and get used to `Rotations, scaling, alpha/opacity, subtexture/spritesheet, layering, MAYBE some more memory management`
-- [ ] Continuous Collision Detection (`SDL_HasIntersection`, reversing velocities)
+- [x] Continuous Collision Detection (`SDL_HasIntersection`)
 - [ ] Game Objects (Player circle, enemy squares, lightweight classes)
 - [ ] Game Loop & Timing (`SDL_GetTicks`, delta time)
 - [ ] Levels & Difficulty (progression, retry mechanism)

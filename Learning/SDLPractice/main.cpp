@@ -9,6 +9,8 @@
 #include "Core/EventManager.hpp"
 #include "Core/Texture.hpp"
 
+#include "utils/Collision.hpp"
+
 
 void drawAnImage(Window& window) {
     // Colors
@@ -54,12 +56,10 @@ void drawAnImage(Window& window) {
 int main() {
     SDLInitializer sdl(SDL_INIT_VIDEO | SDL_INIT_AUDIO, IMG_INIT_PNG);
     Window window("Window", 1250, 1000);
-    EventManager events(true);
-    Texture texture(window.renderer(), "src/ghost.png");
+    EventManager events(false);
 
     if (!sdl.sdlInitialized()) { return -1; }
     if (!sdl.imgInitialized()) { return -1; }
-
 
 
     bool running = true;
@@ -70,12 +70,34 @@ int main() {
 
         window.beginFrame();
 
-        texture.render(window.renderer(), 100, 100, 100, 350);
+        // Draw rectangle
+        int x1 = 750, y1 = 750;
+        int x2 = 850, y2 = 850;
+        boxRGBA(window.renderer(), x1, y1, x2, y2, 255, 255, 255, 100);
+
+        // Create SDL_Rect to use for collision
+        SDL_Rect rect;
+        rect.x = x1;
+        rect.y = y1;
+        rect.w = x2 - x1; // 100
+        rect.h = y2 - y1; // 100
+
+        // Draw circle at mouse position
+        int cx = events.mouseX();
+        int cy = events.mouseY();
+        int radius = 50;
+        filledCircleRGBA(window.renderer(), cx, cy, radius, 156, 41, 28, 85);
+
+        // Check collision
+        bool collision = Collision::circleRectCollision(cx, cy, radius, rect);
+        if (collision) {
+            std::cout << "Collision detected!" << std::endl;
+        }
+
 
         window.endFrame();  
 
         SDL_Delay(16); // Around 60 FPS
     }
-
     return 0;
 }

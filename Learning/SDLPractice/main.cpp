@@ -2,10 +2,12 @@
 #include <iostream>
 #include <SDL2/SDL.h>
 #include <SDL2_gfxPrimitives.h>
+#include <SDL2/SDL_image.h>
 
 #include "Core/Window.hpp"
 #include "Core/Initializer.hpp"
 #include "Core/EventManager.hpp"
+#include "Core/Texture.hpp"
 
 
 void drawAnImage(Window& window) {
@@ -18,7 +20,7 @@ void drawAnImage(Window& window) {
     // Clear background with sky
     window.drawFilledRect({0, 0, 800, 600}, skyColor);
 
-    // Draw hills using custom filled triangles
+    // Draw hills using custom #include <SDL2_gfxPrimitives.h>filled triangles
     window.drawFilledTriangle(0, 400, 200, 250, 400, 400, hillColor);
     window.drawFilledTriangle(300, 400, 500, 250, 700, 400, hillColor);
     window.drawFilledTriangle(600, 400, 750, 300, 800, 400, hillColor);
@@ -50,13 +52,15 @@ void drawAnImage(Window& window) {
 
 
 int main() {
-    SDLInitializer sdl(SDL_INIT_VIDEO | SDL_INIT_AUDIO);
-
-    if (!sdl.initialized()) { return 1; }
-
-    Window window("Window", 800, 600);
-
+    SDLInitializer sdl(SDL_INIT_VIDEO | SDL_INIT_AUDIO, IMG_INIT_PNG);
+    Window window("Window", 1250, 1000);
     EventManager events(true);
+    Texture texture(window.renderer(), "src/ghost.png");
+
+    if (!sdl.sdlInitialized()) { return -1; }
+    if (!sdl.imgInitialized()) { return -1; }
+
+
 
     bool running = true;
     while (running) {
@@ -66,9 +70,7 @@ int main() {
 
         window.beginFrame();
 
-        SDL_Color green {0, 69, 11, 255};
-
-        drawAnImage(window);
+        texture.render(window.renderer(), 100, 100, 100, 350);
 
         window.endFrame();  
 

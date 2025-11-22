@@ -23,8 +23,9 @@ The things I learned previous to making this repository
 - [x] Multibutton Input (`SDL_GetKeyboardState`)
 - [x] Mouse Input (`SDL_GetMouseState`, `SDL_SetRelativeMouseMode`)
     - [x] Won't use SetRelativeMouseMode as no use for it (at least now), will use `ShowCursor`.
-- [] More advanced drawing
-- [ ] Image rendering
+- [x] More advanced drawing
+- [x] Image rendering
+    - [ ] Extra: Learn and get used to `Rotations, scaling, alpha/opacity, subtexture/spritesheet, layering, MAYBE some more memory management`
 - [ ] Continuous Collision Detection (`SDL_HasIntersection`, reversing velocities)
 - [ ] Game Objects (Player circle, enemy squares, lightweight classes)
 - [ ] Game Loop & Timing (`SDL_GetTicks`, delta time)

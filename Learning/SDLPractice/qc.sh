@@ -8,7 +8,7 @@ g++ -std=c++17 \
     "$DIR/main.cpp" "$DIR"/Core/*.cpp \
     -o "$DIR/game" \
     $(sdl2-config --cflags --libs) \
-    -lSDL2_gfx
+    -lSDL2_image -lSDL2_gfx
 
 # If compile succeeded, run the program
 if [ $? -eq 0 ]; then
@@ -17,3 +17,4 @@ if [ $? -eq 0 ]; then
 else
     echo "Build failed."
 fi
+ 

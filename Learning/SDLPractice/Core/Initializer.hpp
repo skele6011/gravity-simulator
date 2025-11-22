@@ -1,15 +1,19 @@
 #pragma once
 #include <SDL2/SDL.h>
 #include <iostream>
+#include <SDL2/SDL_image.h>
 
 class SDLInitializer {
 private:
-    bool initialized_;
+    bool sdlInitialized_;
+    bool imgInitialized_;
 
 public:
-    SDLInitializer(Uint32 flags);
+    SDLInitializer(Uint32 flags, int imgFlags);
 
     ~SDLInitializer();
 
-    bool initialized() const { return initialized_; }
+    bool sdlInitialized() const { return sdlInitialized_; }
+    bool imgInitialized() const { return imgInitialized_; }
 };
+

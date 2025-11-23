@@ -12,6 +12,7 @@ void Player::render(SDL_Renderer* renderer) {
     float coreRatio = 0.5f;    // 50% of total radius
     float middleRatio = 0.25f; // 25% of total radius
     float outerRatio = 0.25f;  // 25% of total radius
+    (void)outerRatio;
 
     // Compute layer radii
     int outerRadius = radius_; // full radius

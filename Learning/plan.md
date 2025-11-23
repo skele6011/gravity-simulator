@@ -27,12 +27,12 @@ The things I learned previous to making this repository
 - [x] Image rendering
     - [ ] Extra: Learn and get used to `Rotations, scaling, alpha/opacity, subtexture/spritesheet, layering, MAYBE some more memory management`
 - [x] Continuous Collision Detection (`SDL_HasIntersection`)
-    - [ ] Later: Inverting velocity
-- [ ] Game Objects (Player circle, enemy squares, lightweight classes)
-- [ ] Game Loop & Timing (`SDL_GetTicks`, delta time)
+    - [x] Later: Inverting velocity
+- [x] Game Objects (Player circle, enemy squares)
+- [x] Game Loop & Timing (`SDL_GetTicks`, delta time)
 - [ ] Levels & Difficulty (progression, retry mechanism)
 - [ ] Optional: Sound effects (`SDL_INIT_AUDIO`, SDL_mixer)
-- [ ] Optional: Text
+- [x] Optional: Text
 
 ---
 

@@ -32,6 +32,7 @@ void Enemy::render(SDL_Renderer* renderer) {
     float coreRatio = 0.5f;   // 50% of total size
     float middleRatio = 0.25f; // 25% of total size
     float outerRatio = 0.25f;  // 25% of total size
+    (void)outerRatio;
 
     // Compute layer sizes
     int coreW = (int)(totalW * coreRatio);

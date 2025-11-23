@@ -10,55 +10,75 @@
 #include "Core/Texture.hpp"
 
 #include "utils/Collision.hpp"
+#include "utils/Enemy.hpp"
+#include "utils/Player.hpp"
 
-void createCircleAndRect(Window& window, EventManager& events) {
-// Draw rectangle
-    int x1 = 750, y1 = 750;
-    int x2 = 850, y2 = 850;
-    boxRGBA(window.renderer(), x1, y1, x2, y2, 255, 255, 255, 100);
 
-    // Create SDL_Rect to use for collision
-    SDL_Rect rect;
-    rect.x = x1;
-    rect.y = y1;
-    rect.w = x2 - x1; // 100
-    rect.h = y2 - y1; // 100
-
-    // Draw circle at mouse position
-    int cx = events.mouseX();
-    int cy = events.mouseY();
-    int radius = 50;
-    filledCircleRGBA(window.renderer(), cx, cy, radius, 156, 41, 28, 85);
-
-    // Check collision
-    bool collision = Collision::circleRectCollision(cx, cy, radius, rect);
-    if (collision) {
-        std::cout << "Collision detected!" << std::endl;
-    }
-}
 
 int main() {
-    SDLInitializer sdl(SDL_INIT_VIDEO | SDL_INIT_AUDIO, IMG_INIT_PNG);
-    Window window("Window", 1250, 1000);
-    EventManager events(false);
 
+    // --- Core Classes ---
+    SDLInitializer sdl(SDL_INIT_VIDEO | SDL_INIT_AUDIO, IMG_INIT_PNG);
+    Window window("Window", 1920, 1080);
+    EventManager events(false);
+    // --- ---- ---- ---
+
+    // --- Error Checking --- 
     if (!sdl.sdlInitialized()) { return -1; }
     if (!sdl.imgInitialized()) { return -1; }
+    // --- ---- ---- ---
 
+    // --- DeltaTime setup ---
+    Uint32 lastTime = SDL_GetTicks();
+    float deltaTime;
+
+    const int TARGET_FPS = 360;
+    const int FRAME_DELAY = 1000 / TARGET_FPS; // should be ~8 ms
+    // --- ---- ---- ---
+
+    // --- Temporary ---
+    Player player(30);
+    Enemy enemy1(50, 50, 75, 75, 100, 100);
+    // --- ---- ---- ---
 
     bool running = true;
     while (running) {
+        // --- Events Stuff ---
         running = events.pollEvents();
+        // std::cout << "Mouse: " << events.mouseX() << ", " << events.mouseY() << "\n";
+        // --- ---- ---- ---
 
-        std::cout << "Mouse: " << events.mouseX() << ", " << events.mouseY() << "\n";
+        // --- DeltaTime Stuff ---
+        Uint32 frameStart = SDL_GetTicks();
+        deltaTime = (frameStart - lastTime) / 1000.0f; // in seconds
+        lastTime = frameStart;
+        // --- ---- ---- ---
 
+        // --- Frames Stuff ---
         window.beginFrame();
+        
+        enemy1.update(deltaTime, 1920, 1080);
+        enemy1.render(window.renderer());
+        
+        player.updatePosition(events.mouseX(), events.mouseY());
+        player.render(window.renderer());
 
-        createCircleAndRect(window, events);
+        if (Collision::circleRectCollision(events.mouseX(), events.mouseY(), 30, enemy1.rect())) {
+            std::cout << "COLLISION!";
+        }
 
         window.endFrame();  
+        // --- ---- ---- ---
 
-        SDL_Delay(16); // Around 60 FPS
-    }
+        // --- Frame Limiting for 120 FPS ---
+
+        
+        Uint32 frameTime = SDL_GetTicks() - frameStart;
+        if (frameTime < FRAME_DELAY) {
+            SDL_Delay(FRAME_DELAY - frameTime);
+        }
+        // SDL_Delay(16);
+        // --- ---- ---- ---
+    }   
     return 0;
 }

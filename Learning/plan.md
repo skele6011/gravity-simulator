@@ -30,13 +30,14 @@ The things I learned previous to making this repository
     - [x] Later: Inverting velocity
 - [x] Game Objects (Player circle, enemy squares)
 - [x] Game Loop & Timing (`SDL_GetTicks`, delta time)
-- [ ] Levels & Difficulty (progression, retry mechanism)
+- [x] Levels & Difficulty (progression, retry mechanism)
+    - Didn't do levels. Way too specific for this in terms of the full project
 - [ ] Optional: Sound effects (`SDL_INIT_AUDIO`, SDL_mixer)
 - [x] Optional: Text
 
 ---
 
-## Phase 2: OpenGL 3D Gravity Simulator (Future)
+## Phase 2: OpenGL 3D Gravity Simulator (~~Future~~)
 
 **Goal:** Use SDL mainly for window/input while implementing a 3D physics simulator in OpenGL.
 

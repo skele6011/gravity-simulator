@@ -17,12 +17,14 @@ bool EventManager::pollEvents() {
             
             case SDL_KEYDOWN:
                 if (event_.key.keysym.sym == SDLK_SPACE) {
-                    std::cout << "\nSpace was pressed!\n";
+                    
                 } break;
+
+
             
             case SDL_MOUSEBUTTONDOWN:
                 if (event_.button.button == SDL_BUTTON_LEFT) {
-                    std::cout << "\nLeft clicked!\n";
+                    
                 } break;
         }
     }

@@ -73,63 +73,138 @@ CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o: CMa
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o: /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o: CMakeFiles/GravitySimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.i
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.s
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o: CMakeFiles/GravitySimulator.dir/flags.make
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o: /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o: CMakeFiles/GravitySimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.i
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.s
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o: CMakeFiles/GravitySimulator.dir/flags.make
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o: /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Texture.cpp
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o: CMakeFiles/GravitySimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Texture.cpp
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Texture.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.i
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Texture.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.s
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o: CMakeFiles/GravitySimulator.dir/flags.make
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o: /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o: CMakeFiles/GravitySimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.i
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.s
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o: CMakeFiles/GravitySimulator.dir/flags.make
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o: /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Levels/Survival.cpp
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o: CMakeFiles/GravitySimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Levels/Survival.cpp
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Levels/Survival.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.i
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Levels/Survival.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.s
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o: CMakeFiles/GravitySimulator.dir/flags.make
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o: /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Collision.cpp
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o: CMakeFiles/GravitySimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Collision.cpp
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Collision.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.i
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Collision.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.s
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o: CMakeFiles/GravitySimulator.dir/flags.make
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o: /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Enemy.cpp
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o: CMakeFiles/GravitySimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Enemy.cpp
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Enemy.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.i
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Enemy.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.s
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o: CMakeFiles/GravitySimulator.dir/flags.make
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o: /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Player.cpp
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o: CMakeFiles/GravitySimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Player.cpp
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Player.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.i
+
+CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Player.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.s
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o: CMakeFiles/GravitySimulator.dir/flags.make
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o: /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o: CMakeFiles/GravitySimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o -MF CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o.d -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp > CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.i
 
 CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.s
 
 # Object files for target GravitySimulator
 GravitySimulator_OBJECTS = \
 "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o" \
 "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o" \
+"CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o" \
 "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o" \
+"CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o" \
+"CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o" \
+"CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o" \
+"CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o" \
 "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o"
 
 # External object files for target GravitySimulator
@@ -137,12 +212,17 @@ GravitySimulator_EXTERNAL_OBJECTS =
 
 GravitySimulator: CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o
 GravitySimulator: CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o
+GravitySimulator: CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o
 GravitySimulator: CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o
+GravitySimulator: CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o
+GravitySimulator: CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o
+GravitySimulator: CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o
+GravitySimulator: CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o
 GravitySimulator: CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o
 GravitySimulator: CMakeFiles/GravitySimulator.dir/build.make
 GravitySimulator: /usr/lib/x86_64-linux-gnu/libSDL2.so
 GravitySimulator: CMakeFiles/GravitySimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GravitySimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable GravitySimulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GravitySimulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

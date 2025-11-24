@@ -10,7 +10,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o" "gcc" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o.d"
   "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o" "gcc" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o.d"
+  "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Texture.cpp" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o" "gcc" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o.d"
   "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o" "gcc" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o.d"
+  "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Levels/Survival.cpp" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o" "gcc" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o.d"
+  "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Collision.cpp" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o" "gcc" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o.d"
+  "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Enemy.cpp" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o" "gcc" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o.d"
+  "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Player.cpp" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o" "gcc" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o.d"
   "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o" "gcc" "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o.d"
   )
 

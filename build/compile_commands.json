@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp",
+  "file": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/EvenManager.cpp",
+  "output": "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/EvenManager.cpp.o"
+},
+{
+  "directory": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp",
+  "file": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Initializer.cpp",
+  "output": "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.o"
+},
+{
+  "directory": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Texture.cpp",
+  "file": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Texture.cpp",
+  "output": "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o"
+},
+{
+  "directory": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp",
+  "file": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Core/Window.cpp",
+  "output": "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.o"
+},
+{
+  "directory": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Levels/Survival.cpp",
+  "file": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Levels/Survival.cpp",
+  "output": "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o"
+},
+{
+  "directory": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Collision.cpp",
+  "file": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Collision.cpp",
+  "output": "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o"
+},
+{
+  "directory": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Enemy.cpp",
+  "file": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Enemy.cpp",
+  "output": "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o"
+},
+{
+  "directory": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Player.cpp",
+  "file": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/Utils/Player.cpp",
+  "output": "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o"
+},
+{
+  "directory": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o -c /media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp",
+  "file": "/media/skele/OS/Shared/Documents/ASTUFFA/vscode/!Serious/gravity-simulator/Learning/SDLPractice/main.cpp",
+  "output": "CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/main.cpp.o"
+}
+]

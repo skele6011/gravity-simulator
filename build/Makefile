@@ -177,6 +177,30 @@ Learning/SDLPractice/Core/Initializer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Initializer.cpp.s
 .PHONY : Learning/SDLPractice/Core/Initializer.cpp.s
 
+Learning/SDLPractice/Core/Texture.o: Learning/SDLPractice/Core/Texture.cpp.o
+.PHONY : Learning/SDLPractice/Core/Texture.o
+
+# target to build an object file
+Learning/SDLPractice/Core/Texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.o
+.PHONY : Learning/SDLPractice/Core/Texture.cpp.o
+
+Learning/SDLPractice/Core/Texture.i: Learning/SDLPractice/Core/Texture.cpp.i
+.PHONY : Learning/SDLPractice/Core/Texture.i
+
+# target to preprocess a source file
+Learning/SDLPractice/Core/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.i
+.PHONY : Learning/SDLPractice/Core/Texture.cpp.i
+
+Learning/SDLPractice/Core/Texture.s: Learning/SDLPractice/Core/Texture.cpp.s
+.PHONY : Learning/SDLPractice/Core/Texture.s
+
+# target to generate assembly for a file
+Learning/SDLPractice/Core/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Texture.cpp.s
+.PHONY : Learning/SDLPractice/Core/Texture.cpp.s
+
 Learning/SDLPractice/Core/Window.o: Learning/SDLPractice/Core/Window.cpp.o
 .PHONY : Learning/SDLPractice/Core/Window.o
 
@@ -200,6 +224,102 @@ Learning/SDLPractice/Core/Window.s: Learning/SDLPractice/Core/Window.cpp.s
 Learning/SDLPractice/Core/Window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Core/Window.cpp.s
 .PHONY : Learning/SDLPractice/Core/Window.cpp.s
+
+Learning/SDLPractice/Levels/Survival.o: Learning/SDLPractice/Levels/Survival.cpp.o
+.PHONY : Learning/SDLPractice/Levels/Survival.o
+
+# target to build an object file
+Learning/SDLPractice/Levels/Survival.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.o
+.PHONY : Learning/SDLPractice/Levels/Survival.cpp.o
+
+Learning/SDLPractice/Levels/Survival.i: Learning/SDLPractice/Levels/Survival.cpp.i
+.PHONY : Learning/SDLPractice/Levels/Survival.i
+
+# target to preprocess a source file
+Learning/SDLPractice/Levels/Survival.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.i
+.PHONY : Learning/SDLPractice/Levels/Survival.cpp.i
+
+Learning/SDLPractice/Levels/Survival.s: Learning/SDLPractice/Levels/Survival.cpp.s
+.PHONY : Learning/SDLPractice/Levels/Survival.s
+
+# target to generate assembly for a file
+Learning/SDLPractice/Levels/Survival.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Levels/Survival.cpp.s
+.PHONY : Learning/SDLPractice/Levels/Survival.cpp.s
+
+Learning/SDLPractice/Utils/Collision.o: Learning/SDLPractice/Utils/Collision.cpp.o
+.PHONY : Learning/SDLPractice/Utils/Collision.o
+
+# target to build an object file
+Learning/SDLPractice/Utils/Collision.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.o
+.PHONY : Learning/SDLPractice/Utils/Collision.cpp.o
+
+Learning/SDLPractice/Utils/Collision.i: Learning/SDLPractice/Utils/Collision.cpp.i
+.PHONY : Learning/SDLPractice/Utils/Collision.i
+
+# target to preprocess a source file
+Learning/SDLPractice/Utils/Collision.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.i
+.PHONY : Learning/SDLPractice/Utils/Collision.cpp.i
+
+Learning/SDLPractice/Utils/Collision.s: Learning/SDLPractice/Utils/Collision.cpp.s
+.PHONY : Learning/SDLPractice/Utils/Collision.s
+
+# target to generate assembly for a file
+Learning/SDLPractice/Utils/Collision.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Collision.cpp.s
+.PHONY : Learning/SDLPractice/Utils/Collision.cpp.s
+
+Learning/SDLPractice/Utils/Enemy.o: Learning/SDLPractice/Utils/Enemy.cpp.o
+.PHONY : Learning/SDLPractice/Utils/Enemy.o
+
+# target to build an object file
+Learning/SDLPractice/Utils/Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.o
+.PHONY : Learning/SDLPractice/Utils/Enemy.cpp.o
+
+Learning/SDLPractice/Utils/Enemy.i: Learning/SDLPractice/Utils/Enemy.cpp.i
+.PHONY : Learning/SDLPractice/Utils/Enemy.i
+
+# target to preprocess a source file
+Learning/SDLPractice/Utils/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.i
+.PHONY : Learning/SDLPractice/Utils/Enemy.cpp.i
+
+Learning/SDLPractice/Utils/Enemy.s: Learning/SDLPractice/Utils/Enemy.cpp.s
+.PHONY : Learning/SDLPractice/Utils/Enemy.s
+
+# target to generate assembly for a file
+Learning/SDLPractice/Utils/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Enemy.cpp.s
+.PHONY : Learning/SDLPractice/Utils/Enemy.cpp.s
+
+Learning/SDLPractice/Utils/Player.o: Learning/SDLPractice/Utils/Player.cpp.o
+.PHONY : Learning/SDLPractice/Utils/Player.o
+
+# target to build an object file
+Learning/SDLPractice/Utils/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.o
+.PHONY : Learning/SDLPractice/Utils/Player.cpp.o
+
+Learning/SDLPractice/Utils/Player.i: Learning/SDLPractice/Utils/Player.cpp.i
+.PHONY : Learning/SDLPractice/Utils/Player.i
+
+# target to preprocess a source file
+Learning/SDLPractice/Utils/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.i
+.PHONY : Learning/SDLPractice/Utils/Player.cpp.i
+
+Learning/SDLPractice/Utils/Player.s: Learning/SDLPractice/Utils/Player.cpp.s
+.PHONY : Learning/SDLPractice/Utils/Player.s
+
+# target to generate assembly for a file
+Learning/SDLPractice/Utils/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GravitySimulator.dir/build.make CMakeFiles/GravitySimulator.dir/Learning/SDLPractice/Utils/Player.cpp.s
+.PHONY : Learning/SDLPractice/Utils/Player.cpp.s
 
 Learning/SDLPractice/main.o: Learning/SDLPractice/main.cpp.o
 .PHONY : Learning/SDLPractice/main.o
@@ -240,9 +360,24 @@ help:
 	@echo "... Learning/SDLPractice/Core/Initializer.o"
 	@echo "... Learning/SDLPractice/Core/Initializer.i"
 	@echo "... Learning/SDLPractice/Core/Initializer.s"
+	@echo "... Learning/SDLPractice/Core/Texture.o"
+	@echo "... Learning/SDLPractice/Core/Texture.i"
+	@echo "... Learning/SDLPractice/Core/Texture.s"
 	@echo "... Learning/SDLPractice/Core/Window.o"
 	@echo "... Learning/SDLPractice/Core/Window.i"
 	@echo "... Learning/SDLPractice/Core/Window.s"
+	@echo "... Learning/SDLPractice/Levels/Survival.o"
+	@echo "... Learning/SDLPractice/Levels/Survival.i"
+	@echo "... Learning/SDLPractice/Levels/Survival.s"
+	@echo "... Learning/SDLPractice/Utils/Collision.o"
+	@echo "... Learning/SDLPractice/Utils/Collision.i"
+	@echo "... Learning/SDLPractice/Utils/Collision.s"
+	@echo "... Learning/SDLPractice/Utils/Enemy.o"
+	@echo "... Learning/SDLPractice/Utils/Enemy.i"
+	@echo "... Learning/SDLPractice/Utils/Enemy.s"
+	@echo "... Learning/SDLPractice/Utils/Player.o"
+	@echo "... Learning/SDLPractice/Utils/Player.i"
+	@echo "... Learning/SDLPractice/Utils/Player.s"
 	@echo "... Learning/SDLPractice/main.o"
 	@echo "... Learning/SDLPractice/main.i"
 	@echo "... Learning/SDLPractice/main.s"
